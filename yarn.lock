@@ -1160,6 +1160,7 @@ __metadata:
   resolution: "fastify-auth-ts-bug@workspace:."
   dependencies:
     "@fastify/auth": "npm:^4.4.0"
+    "@fastify/error": "npm:^3.4.0"
     "@sinclair/typebox": "npm:^0.31.21"
     "@tsconfig/node18": "npm:^18.2.2"
     "@types/eslint": "npm:^8"

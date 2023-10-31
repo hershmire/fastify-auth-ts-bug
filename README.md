@@ -51,5 +51,5 @@ Seeing the access policy force the PATCH to fail:
 
 ```bash
 curl -X PATCH http://localhost:8080/users/bad-actor -H 'Content-Type: application/json' -d '{ "firstName": "New Name" }'
-# {"message":"Route PATCH:/users/bad-actor not found","error":"Not Found","statusCode":404}
+# {"statusCode":404,"code":"RESOURCE_NOT_FOUND","error":"Not Found","message":"Resource 'bad-actor' not found"}
 ```

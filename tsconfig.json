@@ -1,0 +1,21 @@
+{
+  "ts-node": {
+    "files": true
+  },
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "compilerOptions": {
+    "moduleResolution": "Node16",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "useDefineForClassFields": false
+  },
+  "exclude": ["node_modules"],
+  "include": ["src"]
+}
